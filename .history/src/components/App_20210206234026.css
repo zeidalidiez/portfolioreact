@@ -44,18 +44,22 @@ h2 {
 }
 .navigation {
 background-color: violet;
+position: relative;
 text-align: center;
 align-self: center;
+bottom: auto;
 top: 0;
 position: fixed;
   }
 
 .navigation-sub {
 padding: 10px;
+position: relative;
+top: 30px;
 text-align: center;
 align-self: center;
 bottom: auto;
-left: 5%;
+top: 0;
 position: fixed;
 }
 

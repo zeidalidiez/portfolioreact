@@ -52,10 +52,11 @@ position: fixed;
 
 .navigation-sub {
 padding: 10px;
+top: 150px;
 text-align: center;
 align-self: center;
 bottom: auto;
-left: 5%;
+top: 0;
 position: fixed;
 }
 
