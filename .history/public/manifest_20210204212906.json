@@ -1,6 +1,6 @@
 {
-  "short_name": "Zeid Diez - Portfolio",
-  "name": "Portfolio of Zeid Ali Diez",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
