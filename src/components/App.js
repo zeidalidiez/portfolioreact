@@ -17,6 +17,7 @@ function App() {
         <Route exact path="/Projects" component={Projects} />
         <Route exact path="/Articles" component={Articles} />
         <Route exact path="/About" component={About} />
+        <Route exact path="/" component={About} />
   <nav>
         <div className="navigation">
           <div className="navigation-sub">
