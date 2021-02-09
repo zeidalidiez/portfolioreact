@@ -9,9 +9,6 @@ function About(props) {
       <p>I'm Located in Auburn, WA - close to both Seattle and Tacoma. Get in touch with me about how we can work together to build something exciting! </p>
       <p>I have spent all of my life fiddling around with scripting as a hobby for various video games and modifications of existing games.</p>
       <p>I love to 'take things apart' and figure out how they work - they're all fun logic puzzles. I love thinking of ways to efficiently relay mental models and ideas to others, increasing my team's communication as well as strengthening my own.</p>
-
-      <a href="https://www.linkedin.com/in/zeid-diez/" class="fa fa-linkedin">LinkedIn</a>
-      <a href="https://github.com/zeidalidiez" class="fa fa-github">Github</a>
     </div>
   )
 }

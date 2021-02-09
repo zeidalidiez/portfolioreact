@@ -136,7 +136,7 @@ form {
   width: 50px;
   text-align: center;
   text-decoration: none;
-  justify-self:center;
+  justify-self:flex-start;
 }
 
 /* Add a hover effect if you want */

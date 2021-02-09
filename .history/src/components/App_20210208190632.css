@@ -136,7 +136,7 @@ form {
   width: 50px;
   text-align: center;
   text-decoration: none;
-  justify-self:center;
+  justify-self: center;
 }
 
 /* Add a hover effect if you want */
@@ -148,13 +148,15 @@ form {
 
 /* linkedin */
 .fa-linkedin {
-  font-size: 30px;
+  background: #000000;
+  color: white;
+  font-size: 20px;
 }
 
 /* github */
 .fa-github {
-
-  font-size: 30px;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
 }
 
 a.fa.fa-linkedin::before {

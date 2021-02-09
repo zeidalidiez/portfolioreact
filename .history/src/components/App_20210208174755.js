@@ -1,6 +1,7 @@
 // App.jsx
  
 import React from 'react';
+import logo from './logo.svg';
 // Import the BrowserRouter, Route and Link components
 import {Route, BrowserRouter as Router, Link} from "react-router-dom";
 import Projects from './Projects.js'; 

@@ -10,8 +10,8 @@ function About(props) {
       <p>I have spent all of my life fiddling around with scripting as a hobby for various video games and modifications of existing games.</p>
       <p>I love to 'take things apart' and figure out how they work - they're all fun logic puzzles. I love thinking of ways to efficiently relay mental models and ideas to others, increasing my team's communication as well as strengthening my own.</p>
 
-      <a href="https://www.linkedin.com/in/zeid-diez/" class="fa fa-linkedin">LinkedIn</a>
-      <a href="https://github.com/zeidalidiez" class="fa fa-github">Github</a>
+      <a href="https://www.linkedin.com/in/zeid-diez/" class="fa fa-linkedin"></a>
+      <a href="https://github.com/zeidalidiez" class="fa fa-github"></a>
     </div>
   )
 }

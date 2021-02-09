@@ -11,20 +11,13 @@ text-align: center;
 padding-bottom: 15px;
 
 }
- .projectDiv {
-  background-color: cadetblue;
-  width: 65%;
-  justify-self: center;
-  align-self: center;
-  align-items: center;
-  border: 5px dashed gold;
- }
+
 h2 {
   color: Gold;
   font-size: 55px;
 }
 
-/* div.project {
+div.project {
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
@@ -32,7 +25,7 @@ h2 {
   border: 5px dashed gold;
   width: 80%;
   justify-self: center;
-} */
+}
 
 div.project-title {
   position: relative;
@@ -98,20 +91,18 @@ a:active {
 }
 
 .aboutDiv {
-  background-color: cadetblue;
+  background-color: grey;
   width: 65%;
   justify-self: center;
-  border: 5px dashed gold;
 
 }
 
 form {
-  background-color: cadetblue;
+  background-color: grey;
   width: 65%;
   justify-self: center;
   padding-bottom: 60px;
   display: grid;
-  border: 5px dashed gold;
 }
 
 .emailInput {
@@ -119,58 +110,6 @@ form {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-}
-
-.messageInput {
-  width: 100%;
-  box-sizing: border-box;
-  height: 150px;
-  border-radius: 4px;
-  resize: none;
-}
-
-/* Style all font awesome icons */
-.fa {
-  padding: 20px;
-  font-size: 50px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  justify-self:center;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* linkedin */
-.fa-linkedin {
-  font-size: 30px;
-}
-
-/* github */
-.fa-github {
-
-  font-size: 30px;
-}
-
-a.fa.fa-linkedin::before {
-  padding: 20px;
-}
-
-a.fa.fa-github::before {
-  padding: 20px;
-}
-
-a.fa.fa-linkedin::after {
-  font-size: 20px;
-}
-
-a.fa.fa-github::after {
-  font-size: 20px;
 }
 
 @media screen and (max-width: 800px) {

@@ -136,7 +136,7 @@ form {
   width: 50px;
   text-align: center;
   text-decoration: none;
-  justify-self:center;
+  justify-self: center;
 }
 
 /* Add a hover effect if you want */
@@ -153,7 +153,8 @@ form {
 
 /* github */
 .fa-github {
-
+  background: #ffffff;
+  color: rgb(0, 0, 0);
   font-size: 30px;
 }
 
