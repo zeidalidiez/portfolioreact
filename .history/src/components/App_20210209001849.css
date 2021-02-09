@@ -178,15 +178,6 @@ a.fa.fa-github::after {
   font-size: 20px;
 }
 
-a.fa.fa-file::before {
-  padding: 20px;
-}
-
-a.fa.fa-file::after {
-  font-size: 20px;
-}
-
-
 @media screen and (max-width: 800px) {
   .navigation {
     text-align: center;

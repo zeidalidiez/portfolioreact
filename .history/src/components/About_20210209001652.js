@@ -12,7 +12,7 @@ function About(props) {
 
       <a href="https://www.linkedin.com/in/zeid-diez/" class="fa fa-linkedin">LinkedIn</a>
       <a href="https://github.com/zeidalidiez" class="fa fa-github">Github</a>
-      <a href="https://github.com/zeidalidiez/portfolioreact/raw/master/public/New%20Resume.pdf" class="fa fa-file">Resume</a>
+      <a href="https://github.com/zeidalidiez/portfolioreact/raw/master/public/New%20Resume.pdf" class="fas fa-file">Resume</a>
     </div>
   )
 }
