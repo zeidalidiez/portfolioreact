@@ -1,0 +1,209 @@
+
+body {
+  background-color: teal;
+  display: grid;
+}
+div {
+display: grid;
+padding: 5px;
+position: relative;
+text-align: center;
+padding-bottom: 15px;
+
+}
+ .projectDiv {
+  background-color: cadetblue;
+  width: 65%;
+  justify-self: center;
+  align-self: center;
+  align-items: center;
+  border: 5px dashed gold;
+ }
+h2 {
+  color: Gold;
+  font-size: 55px;
+}
+
+/* div.project {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  padding-bottom: 15px;
+  border: 5px dashed gold;
+  width: 80%;
+  justify-self: center;
+} */
+
+div.project-title {
+  position: relative;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  padding-bottom: 15px;
+  
+}
+
+.navigation {
+text-align: center;
+align-self: center;
+top: 0;
+position: fixed;
+  }
+
+.navigation-sub {
+padding: 10px;
+text-align: center;
+align-self: center;
+bottom: auto;
+left: 5%;
+position: fixed;
+border: 5px dashed gold;
+background-color: cadetblue;
+font-size: 25px;
+}
+
+a {
+  display: grid;
+padding: 5px;
+text-align: center;
+align-self: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+/* unvisited link */
+a:link {
+  color: gold;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(255, 208, 0);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(255, 174, 0);
+}
+
+/* selected link */
+a:active {
+  color: rgb(255, 0, 0);
+}
+
+.aboutDiv {
+  background-color: cadetblue;
+  width: 65%;
+  justify-self: center;
+  border: 5px dashed gold;
+
+}
+
+form {
+  background-color: cadetblue;
+  width: 65%;
+  justify-self: center;
+  padding-bottom: 60px;
+  display: grid;
+  border: 5px dashed gold;
+}
+
+.emailInput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.messageInput {
+  width: 100%;
+  box-sizing: border-box;
+  height: 150px;
+  border-radius: 4px;
+  resize: none;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  justify-self:center;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Resume */
+.fa-file {
+  font-size: 30px;
+}
+
+/* linkedin */
+.fa-linkedin {
+  font-size: 30px;
+}
+
+/* github */
+.fa-github {
+
+  font-size: 30px;
+}
+
+a.fa.fa-linkedin::before {
+  padding: 20px;
+}
+
+a.fa.fa-github::before {
+  padding: 20px;
+}
+
+a.fa.fa-linkedin::after {
+  font-size: 20px;
+}
+
+a.fa.fa-github::after {
+  font-size: 20px;
+}
+
+a.fa.fa-file::before {
+  padding: 20px;
+}
+
+a.fa.fa-file::after {
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .navigation {
+    text-align: center;
+    align-self: center;
+    top: 0;
+    position: fixed;
+      }
+    
+    .navigation-sub {
+    padding: 10px;
+    text-align: center;
+    align-self: center;
+    bottom: auto;
+    left: 5%;
+    position: fixed;
+    border: 5px dashed gold;
+    background-color: cadetblue;
+    font-size: 10px;
+    }
+}
