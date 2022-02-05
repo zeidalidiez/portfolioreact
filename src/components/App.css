@@ -52,8 +52,8 @@ position: fixed;
 
 .navigation-sub {
 padding: 10px;
-text-align: center;
-align-self: center;
+text-align: start;
+align-self: flex-start;
 bottom: auto;
 left: 5%;
 position: fixed;
